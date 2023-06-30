@@ -1,3 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+
+html,
+body {
+    margin: 0 40px;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 10px;
+    background-color: #F2F4FC;
+ 
+}
+
+
+h1 {
+    font-size: 60px;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+h3 {
+    font-size: 40px;
+    text-align: left;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 30px;
+    text-align: left;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 24px;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 200px;
+    text-align: left;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+.menu {
+    display:inline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li{
+    display: inline;
+    justify-content: space-evenly;
+    padding: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.empower-your li{
+    display: inline;
+    text-align: center;
+}
+
+.projet img {
+    width: 60%;
+    height: 60%;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.ourServices-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    filter: grayscale();
+    align-items: center;
+}
+
+.line-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #ECF7FF;
+    align-items: center;
+}
+
+.line-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.line-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.kristin {
+    color: #D1EDFF;
+}
+
+.booking {
+    color: #F2F4FC;
+}
+
+.testimonial-section {
+    /* background-image: url(/project-assets/testimonial-section/orbit.png); */
+    background-size: contain;
+    background-color: #03071a;
+
+}
+
+.testimonial-section img {
+    width: 15%;
+    height: 15%;
+}
+
+.miss-kristin {
+    width: 200px;
+
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1px;
+
+}
+
+#kristin-img {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    float: left;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    padding: 0%;
+
+}
+
+.Circle {
+    padding: 30px;
+    color: #FFC600;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
 .blue-button {
     background-color: #072AC8;
     border: none;
@@ -6,7 +172,12 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 18px;
     margin: 4px 2px;
+    font-weight:bold ;
 
+}
+
+.service{
+    background-color: white ;
 }
