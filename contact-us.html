@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact-us.css">
+
+</head>
+
+<body>
+    <!-- PART 1 -->
+    <nav class="menu">
+
+        <a href="Circle"><img src="/project-assets/logos/circle.svg" alt=""></a>
+
+        <ul>
+            <li><a href="Home">Home</a></li>
+            <li><a href="Projects">Projects</a></li>
+            <li><a href="Services">Services</a></li>
+        </ul>
+        <div>
+            <a class="blue-button" href="Contact Us">Contact Us</a>
+        </div>
+
+    </nav>
+
+    <!-- PART 2 -->
+
+    <h1>Contact Us</h1>
+    <div class="container">
+        <form action="/some-url" method="post">
+
+            <label for="name">Full Name*:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your full name">
+
+            <br><br>
+
+            <div class="mail-phone">
+                <div id="mail">
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" placeholder="Enter your email address">
+                </div>
+                <div id="phone">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" placeholder="Enter your phone number">
+                </div>
+            </div>
+            <br><br>
+
+            <label for="message">Message:</label>
+
+            <textarea id="message" name="message" rows="6" placeholder="Write your message here..."></textarea>
+
+            <br><br>
+            <button type="submit"> Submit </button>
+
+
+        </form>
+    </div>
+
+
+    <!-- PART 3 -->
+    </main>
+    <footer class="footer-links">
+        <div>
+            <img src="/project-assets/logos/circle.svg" alt="logo">
+            <p class="adresse">2972 Westheimer Rd.Santa Ana,<br> Illinois 85486</p>
+        </div>
+        <table class="footer-table">
+            <tr>
+                <td> Team</td>
+                <td>Services</td>
+                <td>About Us</td>
+            </tr>
+            <tr>
+                <td>Press</td>
+                <td>Projects</td>
+                <td>Privacy Policy</td>
+            </tr>
+        </table>
+
+    </footer>
+</body>

@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+
+html,
+body {
+
+    margin: 0px 180px 0px 180px;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 10px;
+    background-color: #F2F4FC;
+
+}
+
+
+h1 {
+    font-size: 6em;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+h3 {
+    font-size: 40px;
+    text-align: left;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 30px;
+    text-align: left;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 24px;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 200px;
+    text-align: left;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bit24m {
+    font-size: 2.4em;
+    color: black;
+}
+
+.bit20r {
+    font-size: 2em;
+    color: #6B708D;
+}
+
+
+.blue-button {
+    background-color: #072AC8;
+    border: none;
+    color: rgb(222, 228, 231);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+
+}
+
+/* NAV BARRE */
+.menu {
+    display: inline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    margin-bottom: 60px;
+    padding-bottom: 40px;
+}
+
+.menu li {
+    display: inline;
+    justify-content: space-evenly;
+    padding: 30px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+
+/* FORM */
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+label {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+    display: block;
+
+}
+
+input {
+    background-color: #d4d8e4;
+    color: white;
+    height: 30px;
+    border-style: none;
+}
+
+.mail-phone {
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-between;
+}
+
+#mail,
+#phone input,
+label {
+    display: block;
+}
+
+
+#phone input {
+    width: 320px;
+    height: 30px;
+}
+
+#mail input {
+    width: 320px;
+    height: 30px;
+}
+
+textarea {
+    background-color: #d4d8e4;
+    border-style: none;
+}
+
+button[type=submit] {
+    background-color: #072AC8;
+    color: aliceblue;
+    border-style: none;
+    height: 40px;
+
+}
+
+
+
+
+
+/* FOOTER LINKS */
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    padding-top: 50px;
+}
+
+.footer-table td {
+    padding: 10px;
+
+}
