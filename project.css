@@ -122,7 +122,9 @@ section {
     color: #6B708D;
 }
 
-
+#project-content{
+    font-size: 1.6em;
+}
 
 
 /* OTHER PROJECTS */
@@ -199,5 +201,6 @@ section {
 
 .footer-table td {
     padding: 10px;
+    font-size: 1.6em;
 
 }

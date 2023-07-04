@@ -162,7 +162,6 @@ button[type=submit] {
 
 
 
-
 /* FOOTER LINKS */
 
 .footer-links {
@@ -176,5 +175,6 @@ button[type=submit] {
 
 .footer-table td {
     padding: 10px;
+    font-size: 1.6em;
 
 }
