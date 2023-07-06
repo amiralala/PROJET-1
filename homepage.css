@@ -111,12 +111,22 @@ section {
 /* HERO SECTION */
 
 .hero-section {
-    /* display: inline; */
     display: flex;
+    flex-direction: row;
     margin-top: 6em;
     margin-bottom: 8em;
 }
-
+.hero-section div{
+    display:inline;
+}
+.empower-your li {
+    display: inline;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 0.4em 0.2em;
+    font-weight: bold;
+    color: rgb(222, 228, 231);
+}
 
 .happy-guy {
     background-image: url(/project-assets/hero-section/hero-image.png);
@@ -125,8 +135,9 @@ section {
     position: relative;
     margin: 0%;
     padding:0;
-    width: 50vw;
-    /*height: 30vw;*/
+    /* width: 400pix; */
+    height: 100vh;
+    border-style:solid;
 }
 
 
@@ -142,14 +153,7 @@ section {
     right: 0;
 }
 
-.empower-your li {
-    display: inline;
-    text-align: center;
-    font-size: 1.8em;
-    margin: 0.4em 0.2em;
-    font-weight: bold;
-    color: rgb(222, 228, 231);
-}
+
 
 
 /* Logos */
