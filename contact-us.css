@@ -1,15 +1,25 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
 
-html,
 body {
-
-    margin: 0px 180px 0px 180px;
+    font-size: 10px;
+    margin: 0px 10em 0px 10em;
     padding: 0;
     font-family: Roboto;
-    font-size: 10px;
     background-color: #F2F4FC;
-
 }
+
+@media (min-width: 1000px) {
+    body {
+        margin: 0px 100px 0px 150px;
+    }
+}
+
+@media (max-width: 999px) {
+    body {
+        margin: 0px 50px 0px 50px;
+    }
+}
+
 
 
 h1 {
@@ -20,27 +30,27 @@ h1 {
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 4em;
     text-align: left;
     line-height: 1em;
     font-weight: bold;
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 3em;
     text-align: left;
     line-height: 1em;
     font-weight: bold;
 }
 
 h5 {
-    font-size: 24px;
+    font-size: 2.4em;
     line-height: 1em;
     font-weight: bold;
 }
 
 h6 {
-    font-size: 200px;
+    font-size: 2em;
     text-align: left;
     line-height: 1em;
     font-weight: bold;
@@ -65,12 +75,12 @@ a {
     background-color: #072AC8;
     border: none;
     color: rgb(222, 228, 231);
-    padding: 15px 32px;
+    padding: 1.5px 3.2em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
-    margin: 4px 2px;
+    font-size: 1.8em;
+    margin: 0.4em 0.2em;
 
 }
 
@@ -84,15 +94,15 @@ a {
 }
 
 section {
-    margin-bottom: 60px;
-    padding-bottom: 40px;
+    margin-bottom: 6em;
+    padding-bottom: 4em;
 }
 
 .menu li {
     display: inline;
     justify-content: space-evenly;
-    padding: 30px;
-    font-size: 14px;
+    padding: 3em;
+    font-size: 1.4em;
     font-weight: bold;
 
 }
@@ -108,8 +118,8 @@ form {
 
 
 label {
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: 0;
+    margin-left: 0;
     width: 100%;
     display: block;
 
@@ -118,7 +128,7 @@ label {
 input {
     background-color: #d4d8e4;
     color: white;
-    height: 30px;
+    height: 3em;
     border-style: none;
 }
 
@@ -126,24 +136,17 @@ input {
     display: flex;
     flex-direction: row;
     align-content: stretch;
-    justify-content: space-between;
+    justify-content:space-between;
 }
-
-#mail,
-#phone input,
-label {
-    display: block;
-}
-
 
 #phone input {
-    width: 320px;
-    height: 30px;
-}
+    width: 32em; 
+    height: 3em;
+    }
 
 #mail input {
-    width: 320px;
-    height: 30px;
+    width: 32em;
+    height: 3em;
 }
 
 textarea {
@@ -155,11 +158,8 @@ button[type=submit] {
     background-color: #072AC8;
     color: aliceblue;
     border-style: none;
-    height: 40px;
-
+    height: 4em;
 }
-
-
 
 
 /* FOOTER LINKS */
