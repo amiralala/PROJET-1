@@ -20,6 +20,12 @@ body {
     }
 }
 
+@media (max-width: 350px) {
+    body {
+        margin: 0;
+    }
+}
+
 h1 {
     font-size: 4em;
     text-align: left;
@@ -319,7 +325,18 @@ section {
     padding-block: 10%;
 
 }
+#mail{
+    background-image: url(/project-assets/newsletter/icon/mail.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
 
+@media (max-width: 600px) {
+   .hero-section, .projects-container, .ourServices-container{
+    flex-direction: column;
+   }
+}
 
 /* FOOTER LINKS */
 

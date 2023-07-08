@@ -135,6 +135,15 @@ section {
     justify-content: space-evenly;
 }
 
+@media (max-width: 600px) {
+    body{
+        margin:0;
+    }
+    .projects-container{
+     flex-direction: column;
+    }
+ }
+
 .projet {
     border-style: none;
     background-color: white;
