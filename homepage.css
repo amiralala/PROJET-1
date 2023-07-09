@@ -64,8 +64,6 @@ a {
     text-decoration: none;
 }
 
-
-
 .bit20r {
     font-size: 2em;
     color: #6B708D;
@@ -73,7 +71,6 @@ a {
 
 /* NAV BARRE */
 .menu {
-    display: inline;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -214,9 +211,6 @@ section {
     width: 15%;
     height: 15%;
 }
-
-
-
 
 .line-one {
     display: flex;
